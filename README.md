@@ -1,4 +1,4 @@
-# femver
+# @suchipi/femver
 
 > Lightweight alternative to semver, supporting absolute versions only
 
@@ -23,7 +23,7 @@ semver.gte(process.version, "8.0.0");
 
 Then pulling in all of semver is a little unnecessary.
 
-That's where `femver` comes in; it's a lightweight alternative to `semver`, which _only_ supports comparing absolute versions (eg `1.2.0`, not `>= 1.0.0`).
+That's where `@suchipi/femver` comes in; it's a lightweight alternative to `semver`, which _only_ supports comparing absolute versions (eg `1.2.0`, not `>= 1.0.0`).
 
 ## API
 
@@ -71,9 +71,9 @@ export function eq(firstVersion: string, secondVersion: string): boolean;
 ## Example
 
 ```js
-const femver = require("femver");
+const femver = require("@suchipi/femver");
 // or:
-// import * as femver from "femver";
+// import * as femver from "@suchipi/femver";
 
 femver.gte(process.version, "8.0.0");
 ```

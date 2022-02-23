@@ -1,9 +1,12 @@
 {
-  "name": "femver",
+  "name": "@suchipi/femver",
   "version": "1.0.0",
   "description": "Lightweight alternative to semver, supporting absolute versions only",
   "main": "index.js",
   "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest"
   },
